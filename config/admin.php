@@ -68,7 +68,7 @@ return [
      */
     'upload' => [
         // 对应 filesystem.php 中的 disks
-        'disk' => 'public',
+        'disk' => 'admin',
 
         'directory' => [
             'image' => 'images',
@@ -127,7 +127,7 @@ return [
      * 页面风格
      * @see https://adminlte.io/docs/2.4/layout
      */
-    'skin' => 'skin-blue-light',
+    'skin' => 'skin-blue',
 
     /*
     |---------------------------------------------------------|
@@ -139,7 +139,7 @@ return [
     |---------------------------------------------------------|
      */
     'layout' => ['sidebar-mini', 'sidebar-collapse'],
-
+    'login_background_image' => env('APP_URL') . '/upload/images/2.jpg',
     /*
      * 页面底部展示的版本.
      */
